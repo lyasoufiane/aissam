@@ -3,7 +3,7 @@ import typing
 import tensorflow as tf
 from tensorflow import keras
 
-from ..utils.custom_losses import ms_logcosh
+from utils.custom_losses import ms_logcosh
 from .wgan import WGAN, create_patchgan_critic
 
 
